@@ -1,1 +1,27 @@
-Last updated: 2026-08-18 11:37:01 WIB
+# supreme-potato
+
+
+
+## 📋 Overview
+
+This repository contains **82 files** and is built with the following technologies:
+
+HTML, Docker
+
+## 🚀 Quick Start
+
+## ✨ Features
+
+- 🐳 Docker support
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+HTML, Docker
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-08-18 11:39:57 WIB*
