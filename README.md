@@ -1,145 +1,66 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">supreme-potato 👋</h1>
+<h1 align="center"> 👋</h1>
 
 <p align="center">
-  <em>tes</em>
+  <strong></strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/supreme-potato"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/supreme-potato-blue?logo=github"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-77-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/supreme-potato">
+  <a href="https://antono4.github.io/supreme-potato/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-80-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 08:41:35 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`supreme-potato`** adalah situs statis yang dibangun dengan HTML, CSS, JavaScript.
-GitHub Pages belum diaktifkan untuk repository ini.
+Repository **`supreme-potato`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/supreme-potato/`](https://antono4.github.io/supreme-potato/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 supreme-potato/
-.github/
-  workflows/
-.gitignore
-404.html
-CHANGELOG.md
-Dockerfile
-Gemfile
-Gemfile.lock
-Images/
-  codeFold.gif
-  codeFontSize.gif
-  hidecode.gif
-  init_cells.gif
-  path.jpg
-  scratchpad.gif
-  test11.gif
-  testing.jpg
-LICENSE
-Temp/
-  2017-11-01-cmaes.md
-  2020-05-12-aboutGod.md
-_config.yml
-_includes/
-  disqus.html
-  ext-css.html
-  ext-js.html
-  footer-minimal.html
-  footer-scripts.html
-  footer.html
-  google_analytics.html
-  gtm_body.html
-  gtm_head.html
-  head.html
-  header.html
-  nav.html
-  navbarlink.html
-  social-share.html
-_layouts/
-  base.html
-  default.html
-  minimal.html
-  page.html
-  post.html
-  tag_index.html
-_plugins/
-  _tag_gen.rb
-_posts/
-  2017-11-01-post1 - Copy.md
-  2017-11-01-postXX.md
-  2017-11-05-scalaTest.md
-  2020-05-27-editCompileDebug.md
-  2020-06-18-pyomoPerformance.md
-  2020-06-24-whyLinearize.md
-  2020-09-17-speedUpPython.md
-  2020-12-16-productiveJupyter - Copy.md
-  2020-12-18-scipSolver.md
-  ideas.txt
-  post1.txt
-  post2.txt
-aboutme.md
-blog-tweaks.txt
-css/
-  bootstrap-social.css
-  bootstrap-theme.css
-  bootstrap-theme.css.map
-  bootstrap-theme.min.css
-  bootstrap.css
-  bootstrap.css.map
-  bootstrap.min.css
-  main-minimal.css
-  main.css
-  normalize.css
-  pygment_highlights.css
-feed.xml
-img/
-  404-southpark.jpg
-  avatar-icon.png
-  bgimage.png
-  hello_world.jpeg
-  install-steps.gif
-  nitin.jpg
-index.html
-js/
-  bootstrap.js
-  bootstrap.min.js
-  jquery-1.11.2.min.js
-  main.js
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `HTML`
 - `CSS`
 - `JavaScript`
 
-> Total **77 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **80 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Tanpa dependency apa pun. Buka `index.html` langsung di browser, atau jalankan server statis:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
+# Tanpa dependency
 python3 -m http.server 8000
 # lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/supreme-potato/](https://antono4.github.io/supreme-potato/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 08:41:35 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
